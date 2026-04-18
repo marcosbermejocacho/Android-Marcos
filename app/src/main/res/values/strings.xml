@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">App Marcos</string>
+    <string name="splash_title">app Marcos</string>
+    <string name="add_anime">añadir anime</string>
+    <string name="delete_anime">borrar anime</string>
+    <string name="consult_animes">consultar animes</string>
+    <string name="name_hint">nombre</string>
+    <string name="type_hint">tipo</string>
+    <string name="status_label">estado</string>
+    <string name="status_pending">pendiente de ver</string>
+    <string name="status_watching">viendolo</string>
+    <string name="status_seen">visto</string>
+    <string name="not_implemented">Funcionalidad no implementada todavía</string>
+    <string name="btn_save">guardar</string>
+    <string name="btn_delete">borrar</string>
+    <string name="delete_anime_title">Borrar Anime</string>
+</resources>
