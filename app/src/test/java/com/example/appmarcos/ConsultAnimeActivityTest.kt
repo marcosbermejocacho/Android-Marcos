@@ -1,14 +1,13 @@
-package com.example.appmarcos
+package com.example.appmarcos.validation
 
-import org.junit.Before
 import org.junit.Test
+import org.junit.Assert.*
+import org.junit.Before
 import org.mockito.Mock
 import org.mockito.MockitoAnnotations
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider
 import com.example.appmarcos.db.Anime
-import kotlin.test.assertEquals
-import kotlin.test.assertTrue
 
 class ConsultAnimeActivityTest {
 

@@ -12,7 +12,7 @@ interface AnimeDao {
     suspend fun insertVisto(anime: Visto)
 
     @Query("DELETE FROM visto WHERE name = :name")
-    suspend fun deleteVistoByName(name: String): Int
+    suspend fun deleteVisto(name: String): Int
 
     @Query("SELECT * FROM visto WHERE name = :name LIMIT 1")
     suspend fun getVistoByName(name: String): Visto?
@@ -25,7 +25,7 @@ interface AnimeDao {
     suspend fun insertViendo(anime: Viendo)
 
     @Query("DELETE FROM viendo WHERE name = :name")
-    suspend fun deleteViendoByName(name: String): Int
+    suspend fun deleteViendo(name: String): Int
 
     @Query("SELECT * FROM viendo WHERE name = :name LIMIT 1")
     suspend fun getViendoByName(name: String): Viendo?
@@ -38,7 +38,7 @@ interface AnimeDao {
     suspend fun insertPendientes(anime: Pendientes)
 
     @Query("DELETE FROM pendientes WHERE name = :name")
-    suspend fun deletePendientesByName(name: String): Int
+    suspend fun deletePendientes(name: String): Int
 
     @Query("SELECT * FROM pendientes WHERE name = :name LIMIT 1")
     suspend fun getPendientesByName(name: String): Pendientes?

@@ -1,14 +1,15 @@
-package com.example.appmarcos
+package com.example.appmarcos.validation
 
+
+import org.junit.Assert.*
 import org.junit.Before
 import org.junit.Test
 import org.mockito.Mock
 import org.mockito.MockitoAnnotations
-import org.mockito.Mockito.verify
+
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider
-import kotlin.test.assertFalse
-import kotlin.test.assertTrue
+
 
 class AddAnimeActivityTest {
 

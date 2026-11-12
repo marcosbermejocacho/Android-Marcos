@@ -1,14 +1,13 @@
 package com.example.appmarcos
 
-import org.junit.Before
 import org.junit.Test
+import org.junit.Assert.*
+import org.junit.Before
 import org.mockito.Mock
 import org.mockito.MockitoAnnotations
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider
-import kotlin.test.assertFalse
-import kotlin.test.assertTrue
-import kotlin.test.assertEquals
+
 
 class DeleteAnimeActivityTest {
 
